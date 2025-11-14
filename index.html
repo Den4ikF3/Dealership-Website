@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Motors - Luxury Cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+
+    <header class="main-header-sticky">
+        <div class="top-bar">
+            <div class="container top-bar-content">
+                <div class="top-bar-left">
+                    <span><i class="fas fa-phone"></i> (555) 123-4567</span>
+                    <span class="separator">|</span>
+                    <span><i class="fas fa-map-marker-alt"></i> 123 Premium Drive, Luxury City, LC 12345</span>
+                </div>
+                <div class="top-bar-right">
+                    <span><i class="far fa-clock"></i> Mon-Sat: 9AM-8PM | Sun: 11AM-6PM</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <div class="container main-nav-content">
+                <a href="#home" class="logo">Premium Motors</a>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#vehicles">New Cars</a></li>
+                    <li><a href="#vehicles">Used Cars</a></li>
+                    <li><a href="#contact">Order</a></li>
+                    <li><a href="#footer-contact">Contact</a></li>
+                </ul>
+                
+                <div class="nav-buttons">
+                    <a href="#contact" class="btn btn-transparent"id="schedule-test-drive-header">Schedule Test Drive</a>
+                    <a href="#contact" class="btn btn-primary"id="order-header">Order</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="container hero-content">
+            <h1>Experience Luxury. <br>Drive Excellence.</h1>
+            <p>Discover our curated collection of premium new and pre-owned vehicles <br>from the world's finest automotive brands.</p>
+            <div class="hero-buttons">
+                <a href="#vehicles" class="btn btn-inventory">Browse Inventory</a>
+                <a href="#contact" class="btn btn-contact" id="consult-hero">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us" id="about">
+        <div class="container about-content">
+            <div class="about-text-column">
+                <h2>Redefining Luxury Car Ownership</h2>
+                
+                <p>For over two decades, Premium Motors has been the premier destination for discerning automotive enthusiasts seeking the finest vehicles from the world's most prestigious brands.</p>
+                
+                <p>Our commitment to excellence extends beyond our carefully curated inventory to encompass every aspect of your ownership experience. From personalized service to exclusive access to limited-edition models, we deliver the exceptional service you deserve.</p>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Years of Excellence</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10,000+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Industry Awards</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4.9</span>
+                        <span class="stat-label">Customer Rating</span>
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-primary btn-discover" id="discover-story-btn">Discover Our Story</a>
+            </div>
+            
+            <div class="about-image-column">
+                <img src="images/aboutUsAudiQ5.jfif" alt="Audi Q5 Luxury Car" class="responsive-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-vehicles" id="vehicles">
+        <div class="container">
+            <h2 class="section-title">Featured Vehicles</h2>
+            <p class="section-subtitle">Handpicked premium vehicles from our exclusive collection</p>
+
+            <div class="vehicle-grid">
+                
+                <div class="vehicle-card">
+                    <div class="card-image-wrap">
+                        <span class="badge new">New</span>
+                        <img src="images/bmwM5.jfif" alt="2024 BMW M5 Competition">
+                    </div>
+                    <div class="card-content">
+                        <h3>2024 BMW M5 Competition</h3>
+                        <p class="price">$119,500</p>
+                        <div class="car-specs">
+                            <span><i class="far fa-calendar-alt"></i> 2024</span>
+                            <span><i class="fas fa-tools"></i> Automatic</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 617 HP</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn btn-primary view-details" id="view-details-bmw">View Details</a>
+                            <a href="#contact" class="btn btn-secondary test-drive" data-car-name="2024 BMW M5 Competition">Test Drive</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="vehicle-card">
+                    <div class="card-image-wrap">
+                        <span class="badge used">Used</span>
+                        <img src="images/audiRS6.jfif" alt="2023 Audi RS6 Avant">
+                    </div>
+                    <div class="card-content">
+                        <h3>2023 Audi RS6 Avant</h3>
+                        <p class="price">$89,900</p>
+                        <div class="car-specs">
+                            <span><i class="far fa-calendar-alt"></i> 2023</span>
+                            <span><i class="fas fa-tools"></i> Automatic</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 591 HP</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn btn-primary view-details" id="view-details-audi">View Details</a>
+                            <a href="#contact" class="btn btn-secondary test-drive" data-car-name="2023 Audi RS6 Avant">Test Drive</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle-card">
+                    <div class="card-image-wrap">
+                        <span class="badge new">New</span>
+                        <img src="images/porsche911TurboS.jfif" alt="2024 Porsche 911 Turbo S">
+                    </div>
+                    <div class="card-content">
+                        <h3>2024 Porsche 911 Turbo S</h3>
+                        <p class="price">$207,000</p>
+                        <div class="car-specs">
+                            <span><i class="far fa-calendar-alt"></i> 2024</span>
+                            <span><i class="fas fa-tools"></i> PDK</span>
+                            <span><i class="fas fa-tachometer-alt"></i> 640 HP</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn btn-primary view-details" id="view-details-porsche">View Details</a>
+                            <a href="#contact" class="btn btn-secondary test-drive" data-car-name="2024 Porsche 911 Turbo S">Test Drive</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <div class="text-center">
+                <a href="#" class="btn btn-outline-light" id="view-all-inventory">View All Inventory</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="premium-services" id="services">
+        <div class="container">
+            <h2 class="section-title">Premium Services</h2>
+            <p class="section-subtitle">Experience exceptional service that matches the quality of our vehicles</p>
+
+            <div class="services-grid">
+                
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="far fa-credit-card"></i> </div>
+                    <h3>Premium Financing</h3>
+                    <p>Competitive rates and flexible terms tailored to your needs with instant pre-approval available.</p>
+                    <ul>
+                        <li><i class="fas fa-circle bullet"></i> Low APR rates</li>
+                        <li><i class="fas fa-circle bullet"></i> Quick approval</li>
+                        <li><i class="fas fa-circle bullet"></i> Flexible terms</li>
+                    </ul>
+                    <a href="#" class="btn btn-link" data-service-name="Premium Financing">Learn More</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-wrench"></i> </div>
+                    <h3>Expert Service Center</h3>
+                    <p>State-of-the-art service facility with certified technicians specializing in luxury vehicles.</p>
+                    <ul>
+                        <li><i class="fas fa-circle bullet"></i> Certified technicians</li>
+                        <li><i class="fas fa-circle bullet"></i> Genuine parts</li>
+                        <li><i class="fas fa-circle bullet"></i> Warranty service</li>
+                    </ul>
+                    <a href="#" class="btn btn-link" data-service-name="Expert Service Center">Learn More</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-exchange-alt"></i> </div>
+                    <h3>Trade-In Program</h3>
+                    <p>Get top market value for your current vehicle with our hassle-free trade-in evaluation.</p>
+                    <ul>
+                        <li><i class="fas fa-circle bullet"></i> Fair market value</li>
+                        <li><i class="fas fa-circle bullet"></i> Quick assessment</li>
+                        <li><i class="fas fa-circle bullet"></i> Same-day offers</li>
+                    </ul>
+                    <a href="#" class="btn btn-link" data-service-name="Trade-In Program">Learn More</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-shield-alt"></i> </div>
+                    <h3>Extended Warranty</h3>
+                    <p>Comprehensive protection plans to keep your premium vehicle running at its best.</p>
+                    <ul>
+                        <li><i class="fas fa-circle bullet"></i> Comprehensive coverage</li>
+                        <li><i class="fas fa-circle bullet"></i> Roadside assistance</li>
+                        <li><i class="fas fa-circle bullet"></i> Transferable plans</li>
+                    </ul>
+                    <a href="#" class="btn btn-link">Learn More</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-user-tie"></i> </div>
+                    <h3>Personal Concierge</h3>
+                    <p>Dedicated service advisors to provide personalized attention throughout your ownership.</p>
+                    <ul>
+                        <li><i class="fas fa-circle bullet"></i> Dedicated advisor</li>
+                        <li><i class="fas fa-circle bullet"></i> VIP treatment</li>
+                        <li><i class="fas fa-circle bullet"></i> Priority scheduling</li>
+                    </ul>
+                    <a href="#" class="btn btn-link">Learn More</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-headset"></i> </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support for emergencies and general assistance.</p>
+                    <ul>
+                        <li><i class="fas fa-circle bullet"></i> 24/7 availability</li>
+                        <li><i class="fas fa-circle bullet"></i> Emergency support</li>
+                        <li><i class="fas fa-circle bullet"></i> Remote assistance</li>
+                    </ul>
+                    <a href="#" class="btn btn-link">Learn More</a>
+                </div>
+
+            </div> </div>
+    </section>
+
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Ready to find your perfect vehicle? Contact us today to schedule a test drive or consultation.</p>
+            
+            <div class="contact-grid">
+                
+                <div class="contact-info-column">
+                    
+                    <div class="contact-info-block">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Visit Our Showroom</h4>
+                        <p>123 Premium Drive</p>
+                        <p>Luxury City, LC 12345</p>
+                        <p>United States</p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <i class="fas fa-phone"></i>
+                        <h4>Call Us</h4>
+                        <p>Sales: (555) 123-4567</p>
+                        <p>Service: (555) 123-4568</p>
+                        <p>Parts: (555) 123-4569</p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email Us</h4>
+                        <p>sales@premiummotors.com</p>
+                        <p>service@premiummotors.com</p>
+                        <p>info@premiummotors.com</p>
+                    </div>
+
+                    <div class="contact-info-block business-hours-block">
+                        <i class="far fa-clock"></i>
+                        <h4>Business Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 8:00 PM</p>
+                        <p>Saturday: 9:00 AM - 7:00 PM</p>
+                        <p>Sunday: 11:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-column">
+                    <form class="contact-form">
+                        <h4>Send Us a Message</h4>
+                        
+                        <div class="form-row">
+                            <input type="text" placeholder="Enter your first name" name="first-name" class="form-input">
+                            <input type="text" placeholder="Enter your last name" name="last-name" class="form-input">
+                        </div>
+                        
+                        <div class="form-row">
+                            <input type="email" placeholder="Enter your email" name="email" class="form-input">
+                            <input type="tel" placeholder="Enter your phone number" name="phone" class="form-input">
+                        </div>
+
+                        <label for="interest">I'm interested in</label>
+                        <select id="interest" name="interest" class="form-select">
+                            <option value="">Select your interest</option> 
+                            <option value="New Cars">New Cars</option>
+                            <option value="Used Cars">Used Cars</option>
+                            <option value="Service">Service</option>
+                            <option value="Test Drive">Test Drive</option> 
+                            <option value="Consultation">Consultation</option>
+                        </select>
+                        
+                        <label for="message">Message</label>
+                        <textarea placeholder="Tell us how we can help you..." id="message-textarea" name="message" class="form-textarea"></textarea>
+                        
+                        <button type="submit" class="btn btn-primary btn-send-message" id="send-message-btn">Send Message</button>
+                    </form>
+                </div>
+                
+            </div> 
+        </div>
+    </section>
+
+    <footer id="footer-contact">
+        <div class="container footer-grid">
+            
+            <div class="footer-col about-col">
+                <h4 class="footer-logo">Premium Motors</h4>
+                <p>Your trusted partner for luxury and premium vehicles for over 25 years.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col quick-links-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New Cars</a></li>
+                    <li><a href="#">Used Cars</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Financing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col services-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Vehicle Sales</a></li>
+                    <li><a href="#">Trade-In</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Service Center</a></li>
+                    <li><a href="#">Parts Department</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-info-col">
+                <h4>Contact Info</h4>
+                <p>123 Premium Drive</p>
+                <p>Luxury City, LC 12345</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: info@premiummotors.com</p>
+            </div>
+            
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2025 Premium Motors. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span class="separator">|</span>
+                    <a href="#">Terms of Service</a>
+                    <span class="separator">|</span>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>    
+
+        <div class="modal-overlay" id="generic-modal-overlay">
+            <div class="modal-content">
+                <span class="modal-close" id="generic-modal-close">&times;</span>
+                <div id="modal-dynamic-content"></div> 
+            </div>
+        </div>
+        <script src="script.js"></script>
+    
+</body>
+</html>
